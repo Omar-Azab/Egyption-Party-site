@@ -1,0 +1,211 @@
+/* ------------------------------ S T A R T N A V B A R ----------------------------- */
+.slide{
+    z-index: 99;
+    height: 100%;
+}
+
+.slidebar{
+    background-color: #1f1f1f;
+    transition: all 1s;
+    padding: 0;
+}
+
+.slidebar ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+    
+}
+
+.slidebar ul a{
+    text-decoration: none;
+    color: rgb(252, 71, 107);
+    font-size: 2rem;
+    font-family: 'Berkshire Swash', cursive;
+    line-height: 8rem;
+    padding-left: .5rem;
+    transition: all 1s;
+}
+
+.slidebar ul li{
+    padding: 1rem;
+}
+
+.slidebar ul a:hover{
+    padding-left: 30px;
+}
+
+.slidebar .icon-close #close-btn{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.slide .icon-open #open-btn{
+    color: white;
+    font-size: 2rem;
+    z-index: 9999;
+    margin-bottom: 2rem;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.slide .icon-open i{
+    background-color:  rgb(252, 71, 107) !important;
+}
+
+.slidebar .line{
+    border-top: 1px solid #4d4d4d;
+    display: block;
+}
+
+/* ------------------------------ E N D N A V B A R ----------------------------- */
+
+/* ------------------------- S T A R T H E A D E R  ------------------------ */
+
+.header{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 660px;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(220, 20, 60, 0.705);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay .item{
+    text-align: center;
+    color: white;
+}
+
+.overlay .item h1{
+    font-size: 4.5rem;
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 1rem;
+}
+
+.overlay .item h4{
+    font-size: 1.5rem;
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 5px;
+}
+
+/* ------------------------- E N D H E A D E R  ------------------------ */
+
+
+/* ------------------------- S T A R T A c c o r d i o n S E C ------------------------ */
+
+section h3{
+    padding: .75rem;
+    margin: 0;
+    background-color: rgba(220, 20, 60, 0.705);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 2px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+section div {
+    padding: .75rem;
+    background-color: rgba(220, 20, 60, 0.199);
+    display: none;
+}
+
+/* ---------------------- E N D A C C O R D I O N S E C --------------------- */
+
+/* --------------------- S T A R T N U M B E R C O U N T -------------------- */
+
+.numbers{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    padding: 8rem 0;    
+}
+
+.overlay-num{
+    position: absolute;
+    background-color: rgba(220, 20, 60, 0.705);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.numbers h2{
+    margin-bottom: 5rem;
+    font-size: 6rem;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.numbers h3{
+    border: 2px solid white;
+    padding: 2rem;
+    background-color:rgba(99, 9, 27, 0.356) ;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 1s;
+}
+
+.numbers h3:hover{
+    background-color: #ffffff;
+    color: rgb(220, 20, 60);
+    border: 2px solid rgb(220, 20, 60) ;
+    border-radius: 35px;
+}
+
+.days, .hours , .minutes, .secound{
+    font-size: 30px;
+    padding-top: 50px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+/* --------------------- E N D N U M B E R C O U N T -------------------- */
+
+/* ------------------------------ S T A R T C O N T A C T ----------------------------- */
+.contact h2{
+    font-size: 4rem;
+    font-family: 'Berkshire Swash', cursive;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact .social-icon i{
+    color: rgb(252, 71, 107) !important;
+}
+
+
+.contact input,textarea,button {
+    border-radius: 0px !important;
+}
+
+.contact .numberCharater{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(252, 71, 107);
+}
+
+.contact .btn{
+    background-color: rgb(252, 71, 107);
+}
+
+/* ------------------------------ E N D C O N T A C T ----------------------------- */
